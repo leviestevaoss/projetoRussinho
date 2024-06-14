@@ -1,39 +1,73 @@
-
-
-<label for="">Digite Seu Nome: </label>
+<h3>Seleção de Uma Vaga</h3>
 <br>
-<input type="text" name="nome" id="nome">
+<form action="#">
+    <label for="Nome">Digite Seu Nome: </label>
+<br>
+<input type="text" name="Nome" id="Nome">
 <br><br>
 
-<label for="">Digite seu Email: </label>
+<label for="email">Digite Seu Email: </label>
 <br>
-<input type="text" name="Email" id="Email" placeholder="xxxxxx@gmail.com">
+<input type="email" name="email" id="email" placeholder="xxx@gmail.com">
 <br><br>
 
-<label for="">Idade: </label>
+<label for="Idade">Sua Idade: </label>
 <br>
-<input type="number">
+<input type="number" name="Idade" id="Idade">
 <br><br>
 
-<label for="">Insira Seu Telefone: </label>
+<label for="Número">Insira um Número Para Contato: </label>
 <br>
-<input type="text" name="Telefone" id="Telefone" placeholder="(xx)xxxxx-xxxx">
+<input type="text" name="Número" id="Número" placeholder="(xx) xxx-xxx">
 <br><br>
 
-<label for="">Selecione Um Estado: </label>
+<label for="Lugar">Selecione a Unidade da empresa: </label>
 <br>
-<input type="radio" name="Select" id="um" 
-value="um">
+<input type="radio" name="select" id="um"
+value="Fortaleza">
 <label for="um">Fortaleza</label>
-
 <br>
 
-<input type="radio" name="Select" id="dois" 
+<input type="radio" name="select" id="dois"
 value="Recife">
 <label for="dois">Recife</label>
-
 <br>
 
-<input type="radio" name="Select" id="tres"
- value="Salvador">
+<input type="radio" name="select" id="tres"
+value="Salvador">
 <label for="tres">Salvador</label>
+<br><br>
+
+<label for="turno">Escolha Seu Turno: </label>
+<br>
+<input type="checkbox" name="turno" id="turno"
+value="manha">
+<label for="turno">Manha</label>
+<br>
+
+<input type="checkbox" name="turno" id="turno"
+value="tarde">
+<label for="turno">Tarde</label>
+<br>
+
+<input type="checkbox" name="turno" id="turno"
+value="noite">
+<label for="turno">Noite</label>
+<br><br>
+
+<label for="selecion">Escolha a Linguagem para Trabalhar: </label>
+<br>
+
+<select name="selecion" id="selecion">
+    <option value="Java">Java</option>
+    <option value="Python">Python</option>
+    <option value="Node.js">Node.js</option>
+    <option value="PHP">PHP</option>
+    <option value="C++">C++</option>
+</select>
+<br><br>
+
+<label for="palavras">Diga seus Objetivos que deseja: </label>
+<br>
+<textarea name="" id="" placeholder="Digite Aqui"></textarea>
+</form>
