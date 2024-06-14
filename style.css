@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+table,th,td,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.div1{
+    background-color: blue;
+    color:  black;
+    min-width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.div2{
+    background-color:rgb(189, 62, 83);
+    color: black;
+    width: 150px;
+    height: 150px;
+    display: none;
+
+}
+
+.div3{
+    background-color:rgb(105, 78, 83);
+    color: black;
+    width: 150px;
+    max-height: 150px;
+    display: inline-block;
+}
+
+nav a{
+    display: block;
+}
+
+header{
+    border: 1px solid red;
+    border-radius: 10px ;
+    background: lightgray;
+    margin: 10px 25px 0px 30px;
+    padding: 10px 20px;
+}
